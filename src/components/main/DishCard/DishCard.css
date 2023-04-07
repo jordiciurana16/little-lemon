@@ -1,0 +1,16 @@
+.card-text.price {
+    color: #EE9972;
+}
+
+.img-bike {
+    width: 2vw;
+}
+
+.dish.card {
+    min-height: 420px;
+    max-height: 420px;
+}
+
+.dish.card-body {
+    background-color: #EDEFEE;
+}

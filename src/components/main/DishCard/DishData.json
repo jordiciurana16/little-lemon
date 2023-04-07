@@ -1,0 +1,40 @@
+{
+    "dishes": [
+      {
+        "name": "Greek Salad",
+        "price": 9,
+        "description": "Crisp lettuce, juicy tomatoes, cucumbers, red onions, Kalamata olives and feta cheese.",
+        "image": "https://i.ibb.co/QCzfh29/greek-salad.jpg"
+      },
+      {
+        "name": "Grilled Chicken",
+        "price": 14,
+        "description": "Juicy chicken breast marinated in lemon, garlic, and oregano, then grilled to perfection.",
+        "image": "https://i.ibb.co/MNcRZXm/grilled-chickenc.jpg"
+      },
+      {
+        "name": "Pesto Pasta",
+        "price": 16,
+        "description": "Al dente pasta tossed with homemade basil pesto, cherry tomatoes, and fresh Parmesan cheese.",
+        "image": "https://i.ibb.co/7rq4RLW/pasta-pesto.jpg"
+      },
+      {
+        "name": "Beef Burger",
+        "price": 8,
+        "description": "A juicy beef patty topped with melted cheddar cheese, crispy bacon, lettuce, and tomato.",
+        "image": "https://i.ibb.co/Kq0jY8Z/beef-burger.jpg"
+      },
+      {
+        "name": "Margherita Pizza",
+        "price": 6,
+        "description": "Thin-crust pizza topped with tomato sauce, fresh mozzarella, and basil. An italian classic",
+        "image": "https://i.ibb.co/5BQXT58/pizza-margherita.jpg"
+      },
+      {
+        "name": "Garlic Shrimp",
+        "price": 7,
+        "description": "Linguine pasta tossed with garlic shrimp, cherry tomatoes, and spinach. A light and flavorful dish.",
+        "image": "https://i.ibb.co/2qtVRRK/garlic-shrimp.jpg"
+      }
+    ]
+}

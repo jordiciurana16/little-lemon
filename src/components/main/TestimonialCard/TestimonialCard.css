@@ -1,0 +1,48 @@
+.testimonial.card {
+    width: 175px;
+    height: 150px;
+}
+
+.star-rating {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    font-size: 24px;
+}
+
+.testimonial.card-text {
+    text-align: left;
+}
+
+.img-testimonial {
+    width: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.right-image {
+    position: absolute;
+    left: 64vw;
+    top: 15vw;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.right-image:hover {
+    transform: translateX(5px);
+}
+
+.left-image {
+    position: absolute;
+    right: 64vw;
+    top: 15vw;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.left-image:hover {
+    transform: translateX(-5px);
+}
