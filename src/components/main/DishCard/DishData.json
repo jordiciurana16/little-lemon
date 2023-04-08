@@ -1,40 +1,64 @@
 {
-    "dishes": [
-      {
-        "name": "Greek Salad",
-        "price": 9,
-        "description": "Crisp lettuce, juicy tomatoes, cucumbers, red onions, Kalamata olives and feta cheese.",
-        "image": "https://i.ibb.co/QCzfh29/greek-salad.jpg"
-      },
-      {
-        "name": "Grilled Chicken",
-        "price": 14,
-        "description": "Juicy chicken breast marinated in lemon, garlic, and oregano, then grilled to perfection.",
-        "image": "https://i.ibb.co/MNcRZXm/grilled-chickenc.jpg"
-      },
-      {
-        "name": "Pesto Pasta",
-        "price": 16,
-        "description": "Al dente pasta tossed with homemade basil pesto, cherry tomatoes, and fresh Parmesan cheese.",
-        "image": "https://i.ibb.co/7rq4RLW/pasta-pesto.jpg"
-      },
-      {
-        "name": "Beef Burger",
-        "price": 8,
-        "description": "A juicy beef patty topped with melted cheddar cheese, crispy bacon, lettuce, and tomato.",
-        "image": "https://i.ibb.co/Kq0jY8Z/beef-burger.jpg"
-      },
-      {
-        "name": "Margherita Pizza",
-        "price": 6,
-        "description": "Thin-crust pizza topped with tomato sauce, fresh mozzarella, and basil. An italian classic",
-        "image": "https://i.ibb.co/5BQXT58/pizza-margherita.jpg"
-      },
-      {
-        "name": "Garlic Shrimp",
-        "price": 7,
-        "description": "Linguine pasta tossed with garlic shrimp, cherry tomatoes, and spinach. A light and flavorful dish.",
-        "image": "https://i.ibb.co/2qtVRRK/garlic-shrimp.jpg"
-      }
-    ]
+  "dishes": [
+    {
+      "name": "Country Potatoes",
+      "price": 10,
+      "description": "Crispy golden potatoes seasoned with herbs and spices, perfect for breakfast or brunch.",
+      "image": "https://i.ibb.co/xG8kmwP/country-potatoes.png"
+    },
+    {
+      "name": "Chicken Pho",
+      "price": 12,
+      "description": "A Vietnamese classic! Fragrant broth filled with rice noodles, chicken, herbs, and spices.",
+      "image": "https://i.ibb.co/FsJ1mjC/chicken-pho.png"
+    },
+    {
+      "name": "Fish Stuffed",
+      "price": 18,
+      "description": "Fresh fish stuffed with herbs, spices, and breadcrumbs, baked to perfection.",
+      "image": "https://i.ibb.co/bWxhRdr/fish-stuffed.png"
+    },
+    {
+      "name": "Grilled Fish",
+      "price": 16,
+      "description": "A healthy and delicious choice! Fresh fish fillet seasoned with lemon, garlic, and herbs, then grilled to perfection.",
+      "image": "https://i.ibb.co/tY0d8p1/grilled-fish.png"
+    },
+    {
+      "name": "Rice Shrimp",
+      "price": 13,
+      "description": "Fluffy rice mixed with succulent shrimp, herbs, and spices.",
+      "image": "https://i.ibb.co/f4wQWvt/rice-shrimps.png"
+    },
+    {
+      "name": "Tagliatelle Shrimp",
+      "price": 17,
+      "description": "Tagliatelle noodles tossed with succulent shrimp, garlic, and cherry tomatoes.",
+      "image": "https://i.ibb.co/j6nN2Xr/tagliatelle-shrimps.png"
+    },
+    {
+      "name": "Pumpkin Soup",
+      "price": 9,
+      "description": "Creamy pumpkin soup with a hint of nutmeg and cinnamon, perfect for a cozy night in.",
+      "image": "https://i.ibb.co/zFRT6px/pumpkin-soup.png"
+    },
+    {
+      "name": "Baked vegetables",
+      "price": 15,
+      "description": "Healthy and delicious! Steamed with herbs, ginger, and soy sauce.",
+      "image": "https://i.ibb.co/KmZWSxt/baked-vegetables.png"
+    },
+    {
+      "name": "Fish Soup",
+      "price": 11,
+      "description": "A hearty soup filled with fresh fish, potatoes, carrots, and herbs.",
+      "image": "https://i.ibb.co/bj0B0hk/fish-soup.png"
+    },
+    {
+      "name": "Vegetarian stew",
+      "price": 14,
+      "description": "Creamy vegetarian stew baked with herbs, ginger and spices",
+      "image": "https://i.ibb.co/1mW5Wq1/vegetarian-stew.png"
+    }
+  ]
 }

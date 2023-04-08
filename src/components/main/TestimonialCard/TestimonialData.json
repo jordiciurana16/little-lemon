@@ -20,8 +20,8 @@
     "review5": {
         "name": "David",
         "image": "https://i.ibb.co/pvBnt3N/david.jpg",
-        "review": "Not bad.",
-        "rating": 2
+        "review": "Nice presentation.",
+        "rating": 3
     },
     "review6": {
       "name": "Peter",
@@ -45,6 +45,30 @@
         "name": "Fiona",
         "image": "https://i.ibb.co/dMW7yWm/fiona.jpg",
         "review": "Cheap prices.",
+        "rating": 3
+      },
+      "review10": {
+        "name": "Alex",
+        "image": "https://i.ibb.co/Npc2pFX/alex.jpg",
+        "review": "Great service!",
         "rating": 4
+      },
+      "review12": {
+        "name": "Harry",
+        "image": "https://i.ibb.co/1q6NfzJ/harry.jpg",
+        "review": "I recommend it!",
+        "rating": 4
+      },
+      "review13": {
+        "name": "Lily",
+        "image": "https://i.ibb.co/WpsX1yQ/lily.png",
+        "review": "Awesome dishes!",
+        "rating": 5
+      },
+      "review16": {
+        "name": "Ethan",
+        "image": "https://i.ibb.co/M5DtBry/ethan.jpg",
+        "review": "Tasty options!",
+        "rating": 3
       }
 }

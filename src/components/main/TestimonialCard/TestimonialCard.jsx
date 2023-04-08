@@ -3,13 +3,13 @@ import "./TestimonialCard.css";
 
 function TestimonialCard(props) {
   const rating = props.rating;
-  const roundedStars = "🟊".repeat(rating);
+  const stars = "🟊".repeat(rating);
 
   return (
     <div className="testimonial card mt-4 rounded-0">
       <div className="testimonial card-body d-flex flex-column">
         <div className="star-rating">
-          <span>{roundedStars}</span>
+          <span>{stars}</span>
         </div>
         <div className="row align-items-center">
           <div className="col-2">
