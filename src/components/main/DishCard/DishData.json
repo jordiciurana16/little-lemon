@@ -1,64 +1,46 @@
 {
   "dishes": [
     {
-      "name": "Country Potatoes",
-      "price": 10,
-      "description": "Crispy golden potatoes seasoned with herbs and spices, perfect for breakfast or brunch.",
-      "image": "https://i.ibb.co/xG8kmwP/country-potatoes.png"
-    },
-    {
-      "name": "Chicken Pho",
+      "name": "Roasted eggs",
       "price": 12,
       "description": "A Vietnamese classic! Fragrant broth filled with rice noodles, chicken, herbs, and spices.",
-      "image": "https://i.ibb.co/FsJ1mjC/chicken-pho.png"
+      "image": "https://i.ibb.co/4sxjLsQ/roasted-eggs.png"
     },
     {
-      "name": "Fish Stuffed",
+      "name": "Stuffed fish",
       "price": 18,
       "description": "Fresh fish stuffed with herbs, spices, and breadcrumbs, baked to perfection.",
-      "image": "https://i.ibb.co/bWxhRdr/fish-stuffed.png"
+      "image": "https://i.ibb.co/SJM2pHj/stuffed-fish.png"
     },
     {
       "name": "Grilled Fish",
       "price": 16,
       "description": "A healthy and delicious choice! Fresh fish fillet seasoned with lemon, garlic, and herbs, then grilled to perfection.",
-      "image": "https://i.ibb.co/tY0d8p1/grilled-fish.png"
+      "image": "https://i.ibb.co/cXW48dy/grilled-fish.png"
     },
     {
-      "name": "Rice Shrimp",
+      "name": "Rice shrimp",
       "price": 13,
       "description": "Fluffy rice mixed with succulent shrimp, herbs, and spices.",
-      "image": "https://i.ibb.co/f4wQWvt/rice-shrimps.png"
+      "image": "https://i.ibb.co/m4w4j9M/rice-shrimp.png"
     },
     {
-      "name": "Tagliatelle Shrimp",
+      "name": "Penne pasta",
       "price": 17,
       "description": "Tagliatelle noodles tossed with succulent shrimp, garlic, and cherry tomatoes.",
-      "image": "https://i.ibb.co/j6nN2Xr/tagliatelle-shrimps.png"
+      "image": "https://i.ibb.co/jr5t6S1/penne-pasta.png"
     },
     {
       "name": "Pumpkin Soup",
       "price": 9,
       "description": "Creamy pumpkin soup with a hint of nutmeg and cinnamon, perfect for a cozy night in.",
-      "image": "https://i.ibb.co/zFRT6px/pumpkin-soup.png"
+      "image": "https://i.ibb.co/ctzVDXh/pumpkin-soup.png"
     },
     {
       "name": "Baked vegetables",
       "price": 15,
       "description": "Healthy and delicious! Steamed with herbs, ginger, and soy sauce.",
-      "image": "https://i.ibb.co/KmZWSxt/baked-vegetables.png"
-    },
-    {
-      "name": "Fish Soup",
-      "price": 11,
-      "description": "A hearty soup filled with fresh fish, potatoes, carrots, and herbs.",
-      "image": "https://i.ibb.co/bj0B0hk/fish-soup.png"
-    },
-    {
-      "name": "Vegetarian stew",
-      "price": 14,
-      "description": "Creamy vegetarian stew baked with herbs, ginger and spices",
-      "image": "https://i.ibb.co/1mW5Wq1/vegetarian-stew.png"
+      "image": "https://i.ibb.co/d0HxrdR/baked-vegetables.png"
     }
   ]
 }
