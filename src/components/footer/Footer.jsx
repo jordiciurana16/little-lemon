@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaTwitter, FaTiktok, FaWhatsapp, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 import './Footer.css';
 
@@ -8,25 +9,25 @@ const Footer = () => {
       <div className="content-padding">
         <div className="d-flex justify-content-between pt-5">
           <div>
-            <h5 className="text-yellow fw-bold">Navigation</h5>
+            <h5 className="text-yellow fw-bold mb-3">Navigation</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white text-decoration-none">Home</a></li>
-              <li><a href="#" className="text-white text-decoration-none">Menu</a></li>
-              <li><a href="#" className="text-white text-decoration-none">Reservation</a></li>
-              <li><a href="#" className="text-white text-decoration-none">Order Online</a></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/">Home</Link></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/menu">Menu</Link></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/reservation">Reservation</Link></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/order">Order Online</Link></li>
             </ul>
           </div>
           <div>
-            <h5 className="text-yellow fw-bold">Contact</h5>
+            <h5 className="text-yellow fw-bold mb-3">Contact</h5>
             <ul className="list-unstyled text-white">
-              <li><FaMapMarkerAlt className="me-2" />Taylor, St.Chicago, 152</li>
-              <li><FaPhone className="me-2" />945 567 332</li>
-              <li><FaEnvelope className="me-2" />little@lemon.com</li>
+              <li className='mb-2'><FaMapMarkerAlt className="me-3 fs-5" />Taylor, St.Chicago, 152</li>
+              <li className='mb-2'><FaPhone className="me-3 fs-5" />945 567 332</li>
+              <li className='mb-2'><FaEnvelope className="me-3 fs-5" />little@lemon.com</li>
             </ul>
           </div>
           <div>
             <h5 className="text-yellow fw-bold">Social Media Links</h5>
-            <div className="d-flex">
+            <div className="d-flex fs-3">
               <a href="#" className="text-white me-3"><FaFacebook /></a>
               <a href="#" className="text-white me-3"><FaInstagram /></a>
               <a href="#" className="text-white me-3"><FaWhatsapp /></a>

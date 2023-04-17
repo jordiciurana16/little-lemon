@@ -1,9 +1,15 @@
 import React from "react";
+import './MenuPage.css';
+import DishFilter from "./DishFilter";
+import DishMenu from "./DishMenu";
 
-function MenuPage() {
+function MenuPage(){
     return (
-        <h1>Menu Page</h1>
+        <>
+            <DishFilter />
+            <DishMenu />
+        </>
     )
-};
+}
 
 export default MenuPage;

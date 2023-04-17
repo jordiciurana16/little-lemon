@@ -5,3 +5,8 @@ footer {
 .text-yellow {
     color: #F4CE14;
 }
+
+li.footer-link:hover {
+    text-decoration: underline;
+    color: #edefee;
+}

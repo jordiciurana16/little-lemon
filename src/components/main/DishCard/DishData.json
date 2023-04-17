@@ -3,44 +3,53 @@
     {
       "name": "Roasted eggs",
       "price": 12,
-      "description": "A Vietnamese classic! Fragrant broth filled with rice noodles, chicken, herbs, and spices.",
-      "image": "https://i.ibb.co/4sxjLsQ/roasted-eggs.png"
+      "description": "These eggs are roasted to perfection with a crispy exterior and a soft, creamy interior.",
+      "image": "https://i.ibb.co/4sxjLsQ/roasted-eggs.png",
+      "type": "vegetables"
+
     },
     {
       "name": "Stuffed fish",
       "price": 18,
-      "description": "Fresh fish stuffed with herbs, spices, and breadcrumbs, baked to perfection.",
-      "image": "https://i.ibb.co/SJM2pHj/stuffed-fish.png"
+      "description": "Fresh fish stuffed with a blend of aromatic herbs and spices and soy sauce.",
+      "image": "https://i.ibb.co/SJM2pHj/stuffed-fish.png",
+      "type": "fish"
     },
     {
       "name": "Grilled Fish",
       "price": 16,
-      "description": "A healthy and delicious choice! Fresh fish fillet seasoned with lemon, garlic, and herbs, then grilled to perfection.",
-      "image": "https://i.ibb.co/cXW48dy/grilled-fish.png"
+      "description": "Our grilled fish fillet is seasoned with a zesty blend of lemon, garlic, and herbs.",
+      "image": "https://i.ibb.co/cXW48dy/grilled-fish.png",
+      "type": "fish"
     },
     {
       "name": "Rice shrimp",
       "price": 13,
-      "description": "Fluffy rice mixed with succulent shrimp, herbs, and spices.",
-      "image": "https://i.ibb.co/m4w4j9M/rice-shrimp.png"
+      "description": "Our rice and succulent shrimp are infused with aromatic herbs and spices.",
+      "image": "https://i.ibb.co/m4w4j9M/rice-shrimp.png",
+      "type": "rice"
     },
     {
       "name": "Penne pasta",
       "price": 17,
-      "description": "Tagliatelle noodles tossed with succulent shrimp, garlic, and cherry tomatoes.",
-      "image": "https://i.ibb.co/jr5t6S1/penne-pasta.png"
+      "description": "Our penne pasta is tossed with succulent shrimp, fresh garlic, and juicy cherry tomatoes.",
+      "image": "https://i.ibb.co/jr5t6S1/penne-pasta.png",
+      "type": "pasta"
+
     },
     {
-      "name": "Pumpkin Soup",
+      "name": "Fish Soup",
       "price": 9,
-      "description": "Creamy pumpkin soup with a hint of nutmeg and cinnamon, perfect for a cozy night in.",
-      "image": "https://i.ibb.co/ctzVDXh/pumpkin-soup.png"
+      "description": "Our tasty fish soup is infused with a warming blend of nutmeg and cinnamon.",
+      "image": "https://i.ibb.co/ctzVDXh/pumpkin-soup.png",
+      "type": "fish"
     },
     {
       "name": "Baked vegetables",
       "price": 15,
-      "description": "Healthy and delicious! Steamed with herbs, ginger, and soy sauce.",
-      "image": "https://i.ibb.co/d0HxrdR/baked-vegetables.png"
+      "description": "Our healthy and delicious baked vegetables are steamed with aromatic herbs.",
+      "image": "https://i.ibb.co/d0HxrdR/baked-vegetables.png",
+      "type": "vegetables"
     }
   ]
 }
