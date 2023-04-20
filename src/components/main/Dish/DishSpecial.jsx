@@ -1,8 +1,8 @@
 import React from "react";
-import "../DishCard/DishCard.css";
+import "./Dish.css";
 import bike from "../../../assets/img/bike.png";
 
-function DishCard(props) {
+function DishSpecial(props) {
   return (
     <div className="dish card mt-4 rounded-0 rounded-top">
       <img className="card-img-top" src={props.image} alt="Card image cap" />
@@ -23,4 +23,4 @@ function DishCard(props) {
   );
 }
 
-export default DishCard;
+export default DishSpecial;

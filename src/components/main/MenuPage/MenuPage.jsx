@@ -1,13 +1,13 @@
 import React from "react";
 import './MenuPage.css';
 import DishFilter from "./DishFilter";
-import DishMenu from "./DishMenu";
+import MenuSection from "./MenuSection";
 
 function MenuPage(){
     return (
         <>
             <DishFilter />
-            <DishMenu />
+            <MenuSection />
         </>
     )
 }

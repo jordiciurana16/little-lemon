@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import DishCard from "../DishCard/DishCard.jsx";
-import dishesData from "../../main/DishCard/DishData.json";
+import DishSpecial from "../Dish/DishSpecial.jsx";
+import dishesData from "../Dish/DishData.json";
 
 function SpecialsSection() {
   const [specialDishes, setSpecialDishes] = useState([]);
@@ -32,7 +32,7 @@ function SpecialsSection() {
         <div className="row">
           {specialDishes.map((dish, index) => (
             <div key={index} className="col-4 mb-5">
-              <DishCard
+              <DishSpecial
                 name={dish.name}
                 price={dish.price}
                 description={dish.description}
