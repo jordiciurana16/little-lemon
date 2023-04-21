@@ -21,6 +21,10 @@ function MenuSection() {
         <h1 className="title">Menu</h1>
       </div>
       <div className="row">
+        <div>
+          <h5 className="price m-0 p-0">Appetizers</h5>
+          <hr className="price mt-2 mb-2"/>
+        </div>
         {rows.map((row, index) => (
           <React.Fragment key={index}>
             {row.map((dish, dishIndex) => (

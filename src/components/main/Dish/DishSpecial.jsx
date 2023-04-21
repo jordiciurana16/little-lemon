@@ -7,7 +7,7 @@ function DishSpecial(props) {
     <div className="dish card mt-4 rounded-0 rounded-top">
       <img className="card-img-top" src={props.image} alt="Card image cap" />
       <div className="dish card-body d-flex flex-column pt-4 ps-4 pe-4 pb-3">
-        <div className="d-flex justify-content-between mb-2">
+        <div className="d-flex justify-content-between mb-1">
           <h4 className="title-card  my-auto">{props.name}</h4>
           <p className="card-text price  my-auto">${props.price}</p>
         </div>

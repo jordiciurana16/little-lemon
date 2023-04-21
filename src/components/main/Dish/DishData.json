@@ -5,7 +5,7 @@
       "price": 12,
       "description": "These eggs are roasted to perfection with a crispy exterior and a soft, creamy interior.",
       "image": "https://i.ibb.co/30YcxQq/roasted-eggs.png",
-      "type": "vegetables"
+      "meal": "entree"
 
     },
     {
@@ -13,28 +13,28 @@
       "price": 18,
       "description": "Fresh fish stuffed with a blend of aromatic herbs and spices and soy sauce.",
       "image": "https://i.ibb.co/djBBpfG/suffed-fish.png",
-      "type": "fish"
+      "meal": "entree"
     },
     {
       "name": "Grilled Fish",
       "price": 16,
       "description": "Our grilled fish fillet is seasoned with a zesty blend of lemon, garlic, and herbs.",
       "image": "https://i.ibb.co/c3H3XQW/grilled-fish.png",
-      "type": "fish"
+      "meal": "entree"
     },
     {
       "name": "Rice shrimp",
       "price": 13,
       "description": "Our rice and succulent shrimp are infused with aromatic herbs and spices.",
       "image": "https://i.ibb.co/9sqsd1D/rice-shrimp.png",
-      "type": "rice"
+      "meal": "entree"
     },
     {
       "name": "Pasta carbonara",
       "price": 17,
       "description": "Our pasta is tossed with succulent bacon, and fresh carbonara sauce.",
       "image": "https://i.ibb.co/MgQxWyr/pasta-carbonara.png",
-      "type": "pasta"
+      "meal": "entree"
 
     },
     {
@@ -42,14 +42,112 @@
       "price": 9,
       "description": "Our tasty fish soup is infused with a warming blend of nutmeg and cinnamon.",
       "image": "https://i.ibb.co/6NScS2m/fish-soup.png",
-      "type": "fish"
+      "meal": "entree"
     },
     {
       "name": "Baked veggies",
       "price": 15,
       "description": "Our healthy and delicious baked vegetables are steamed with aromatic herbs.",
       "image": "https://i.ibb.co/w0h3QFn/baked-vegetables.png",
-      "type": "vegetables"
+      "meal": "entree"
+    },
+    {
+      "name": "Udon noodles",
+      "price": 14,
+      "description": "Our thick and chewy udon noodles are served in a savory broth with tender slices of beef and vegetables.",
+      "image": "https://i.ibb.co/98F0P2L/udon-noodles.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Seafood soup",
+      "price": 20,
+      "description": "Our hearty seafood soup is filled with a variety of fresh seafood, including shrimp, crab, and mussels.",
+      "image": "https://i.ibb.co/RCzdCFx/seafood-soup.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Seafood nero",
+      "price": 20,
+      "description": "Our hearty seafood soup is filled with a variety of fresh seafood, including shrimp, crab, and mussels.",
+      "image": "https://i.ibb.co/3M1Y0Vh/seafood-nero.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Salmon noodles",
+      "price": 16,
+      "description": "Our savory salmon noodles are served with a rich, creamy sauce and fresh vegetables.",
+      "image": "https://i.ibb.co/kBXMTm3/salmon-noodles.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Salmon avocado",
+      "price": 18,
+      "description": "Our succulent salmon avocado dish is served with a tangy vinaigrette and fresh greens.",
+      "image": "https://i.ibb.co/By30mnR/salmon-avocado.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Salad potatoes",
+      "price": 10,
+      "description": "Our refreshing potato salad is tossed with crisp vegetables and a tangy dressing.",
+      "image": "https://i.ibb.co/jTRDCzp/salad-potatoes.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Roasted fish",
+      "price": 20,
+      "description": "Our roasted fish is cooked to perfection and served with a zesty lemon sauce.",
+      "image": "https://i.ibb.co/vjDkH3b/roasted-fish.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Pasta pesto",
+      "price": 15,
+      "description": "Our classic pasta pesto is tossed with fresh basil, garlic, and a touch of parmesan.",
+      "image": "https://i.ibb.co/mXdv3GL/pasta-pesto.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Pasta parmesan",
+      "price": 14,
+      "description": "Our delicious pasta cheese dish is smothered in a creamy cheese sauce and topped with fresh herbs.",
+      "image": "https://i.ibb.co/ncFh7gF/pasta-cheese.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Pasta alle vongole",
+      "price": 17,
+      "description": "Our pasta alle vongole is a classic Italian dish made with succulent clams, garlic, and wine.",
+      "image": "https://i.ibb.co/k4mvBtw/pasta-alle-vongole.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Grilled salmon",
+      "price": 22,
+      "description": "Our grilled salmon fillet is seasoned to perfection and served with a side of fresh vegetables.",
+      "image": "https://i.ibb.co/sHRpS9m/grilled-salmon.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Fried sticks",
+      "price": 10,
+      "description": "Our crispy fried sticks are the perfect snack or appetizer and are served with a spicy sauce.",
+      "image": "https://i.ibb.co/JKnj6XR/fried-sticks.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Chicken noodles",
+      "price": 14,
+      "description": "Our savory chicken noodle soup is made with tender chunks of chicken and vegetables.",
+      "image": "https://i.ibb.co/mz84tQg/chicken-noodles.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Chicken rice",
+      "price": 15,
+      "description": "Our fragrant chicken rice is cooked with a blend of aromatic spices and tender chicken.",
+      "image": "https://i.ibb.co/8MtDHV3/chicken-rice.png",
+      "meal": "entree"
     }
   ]
 }
