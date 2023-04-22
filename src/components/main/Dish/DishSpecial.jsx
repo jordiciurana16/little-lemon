@@ -1,8 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Dish.css";
-import bike from "../../../assets/img/bike.png";
+import bag from "../../../assets/img/bag.svg";
+import bagFill from "../../../assets/img/bag-fill.svg";
 
 function DishSpecial(props) {
+  const [isHovered, setIsHovered] = useState(false);
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <div className="dish card mt-4 rounded-0 rounded-top">
       <img className="card-img-top" src={props.image} alt="Card image cap" />
@@ -14,9 +24,10 @@ function DishSpecial(props) {
         <div className="row">
           <p className="card-text pt-3">{props.description}</p>
         </div>
-        <div className="d-flex mx-auto my-auto mb-2">
+        <div className="d-flex mx-auto my-auto mb-2" onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}>
             <p className="card-text section-categories my-auto pe-2">Order a delivery</p>
-            <img className="img-bike my-auto" src={bike} alt="Order a delivery" />
+            <img className="img-bike my-auto" src={isHovered ? bagFill : bag} alt="Order a delivery" />
         </div>
       </div>
     </div>

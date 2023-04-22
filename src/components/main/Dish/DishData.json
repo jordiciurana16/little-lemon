@@ -3,7 +3,7 @@
     {
       "name": "Roasted eggs",
       "price": 12,
-      "description": "These eggs are roasted to perfection with a crispy exterior and a soft, creamy interior.",
+      "description": "Our eggs are roasted to perfection with a crispy exterior and a soft, creamy interior.",
       "image": "https://i.ibb.co/30YcxQq/roasted-eggs.png",
       "meal": "entree"
 
@@ -11,7 +11,7 @@
     {
       "name": "Stuffed fish",
       "price": 18,
-      "description": "Fresh fish stuffed with a blend of aromatic herbs and spices and soy sauce.",
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
       "image": "https://i.ibb.co/djBBpfG/suffed-fish.png",
       "meal": "entree"
     },
@@ -55,77 +55,77 @@
       "name": "Udon noodles",
       "price": 14,
       "description": "Our thick and chewy udon noodles are served in a savory broth with tender slices of beef and vegetables.",
-      "image": "https://i.ibb.co/98F0P2L/udon-noodles.png",
+      "image": "https://i.ibb.co/ww9c4L0/udon-noodles.png",
       "meal": "entree"
     },
     {
       "name": "Seafood soup",
       "price": 20,
       "description": "Our hearty seafood soup is filled with a variety of fresh seafood, including shrimp, crab, and mussels.",
-      "image": "https://i.ibb.co/RCzdCFx/seafood-soup.png",
+      "image": "https://i.ibb.co/tsVhhXt/seafood-soup.png",
       "meal": "entree"
     },
     {
       "name": "Seafood nero",
       "price": 20,
       "description": "Our hearty seafood soup is filled with a variety of fresh seafood, including shrimp, crab, and mussels.",
-      "image": "https://i.ibb.co/3M1Y0Vh/seafood-nero.png",
+      "image": "https://i.ibb.co/pJWnN3V/seafood-nero.png",
       "meal": "entree"
     },
     {
       "name": "Salmon noodles",
       "price": 16,
       "description": "Our savory salmon noodles are served with a rich, creamy sauce and fresh vegetables.",
-      "image": "https://i.ibb.co/kBXMTm3/salmon-noodles.png",
+      "image": "https://i.ibb.co/WBxLXpQ/salmon-noodles.png",
       "meal": "entree"
     },
     {
       "name": "Salmon avocado",
       "price": 18,
       "description": "Our succulent salmon avocado dish is served with a tangy vinaigrette and fresh greens.",
-      "image": "https://i.ibb.co/By30mnR/salmon-avocado.png",
+      "image": "https://i.ibb.co/5xDvqPS/salmon-avocado.png",
       "meal": "entree"
     },
     {
       "name": "Salad potatoes",
       "price": 10,
       "description": "Our refreshing potato salad is tossed with crisp vegetables and a tangy dressing.",
-      "image": "https://i.ibb.co/jTRDCzp/salad-potatoes.png",
+      "image": "https://i.ibb.co/6JtctMw/salad-potatoes.png",
       "meal": "entree"
     },
     {
       "name": "Roasted fish",
       "price": 20,
       "description": "Our roasted fish is cooked to perfection and served with a zesty lemon sauce.",
-      "image": "https://i.ibb.co/vjDkH3b/roasted-fish.png",
+      "image": "https://i.ibb.co/6YkKV90/roasted-fish.png",
       "meal": "entree"
     },
     {
       "name": "Pasta pesto",
       "price": 15,
       "description": "Our classic pasta pesto is tossed with fresh basil, garlic, and a touch of parmesan.",
-      "image": "https://i.ibb.co/mXdv3GL/pasta-pesto.png",
+      "image": "https://i.ibb.co/GsGngpq/pasta-pesto.png",
       "meal": "entree"
     },
     {
       "name": "Pasta parmesan",
       "price": 14,
       "description": "Our delicious pasta cheese dish is smothered in a creamy cheese sauce and topped with fresh herbs.",
-      "image": "https://i.ibb.co/ncFh7gF/pasta-cheese.png",
+      "image": "https://i.ibb.co/T0BQVw3/pasta-parmesan.png",
       "meal": "entree"
     },
     {
-      "name": "Pasta alle vongole",
+      "name": "Pasta vongole",
       "price": 17,
       "description": "Our pasta alle vongole is a classic Italian dish made with succulent clams, garlic, and wine.",
-      "image": "https://i.ibb.co/k4mvBtw/pasta-alle-vongole.png",
+      "image": "https://i.ibb.co/9TVBPXQ/pasta-vongole.png",
       "meal": "entree"
     },
     {
       "name": "Grilled salmon",
       "price": 22,
       "description": "Our grilled salmon fillet is seasoned to perfection and served with a side of fresh vegetables.",
-      "image": "https://i.ibb.co/sHRpS9m/grilled-salmon.png",
+      "image": "https://i.ibb.co/0yq5QvM/grilled-salmon.png",
       "meal": "entree"
     },
     {
@@ -133,14 +133,14 @@
       "price": 10,
       "description": "Our crispy fried sticks are the perfect snack or appetizer and are served with a spicy sauce.",
       "image": "https://i.ibb.co/JKnj6XR/fried-sticks.png",
-      "meal": "entree"
+      "meal": "appetizer"
     },
     {
       "name": "Chicken noodles",
       "price": 14,
       "description": "Our savory chicken noodle soup is made with tender chunks of chicken and vegetables.",
-      "image": "https://i.ibb.co/mz84tQg/chicken-noodles.png",
-      "meal": "appetizer"
+      "image": "https://i.ibb.co/c8QwYvP/chicken-noodles.png",
+      "meal": "entree"
     },
     {
       "name": "Chicken rice",
@@ -148,6 +148,90 @@
       "description": "Our fragrant chicken rice is cooked with a blend of aromatic spices and tender chicken.",
       "image": "https://i.ibb.co/8MtDHV3/chicken-rice.png",
       "meal": "entree"
+    },
+    {
+      "name": "Seafood mussels",
+      "price": 15,
+      "description": "Our hearty seafood mussels with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/vQ4f2q8/seafood-mussel.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Bagel sandwich",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/HGbcMhD/bagel-sandwiches.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Fried cutles",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/1RgM65m/fried-cutles.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "French fries",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/82xGPjJ/french-fries.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Country potatoes",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/WPyXJtx/country-potatoes.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Salmon toast",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/7VKbCxM/salmon-toast.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Berry waffle",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/5KhY6q6/berry-waffle.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Chocolate cake",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/PC8BqJV/chocolate-cake.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Banana waffle",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/74HTrV4/banana-waffle.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Vanilla ice cream",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/7Q6xgyM/vanilla-ice-cream.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Tiramisu cake",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/pRDcvLS/tiramisu-cake.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Baked waffle",
+      "price": 18,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/LP2XDYw/baked-waffle.png",
+      "meal": "dessert"
     }
   ]
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import TestimonialCard from "../TestimonialCard/TestimonialCard.jsx";
-import testimonialData from "../../main/TestimonialCard/TestimonialData.json"
+import TestimonialCard from "../Testimonial/TestimonialCard.jsx";
+import testimonialData from "../Testimonial/TestimonialData.json"
 
 function TestimonialsSection() {
   const [testimonials, setTestimonials] = useState([]);
