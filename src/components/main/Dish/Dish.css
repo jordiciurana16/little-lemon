@@ -4,11 +4,16 @@
     color: #EE9972;
 }
 
+.d-flex.mx-auto.my-auto.mb-2:hover p{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.bag-image{
+    cursor: pointer;
+}
 /*DISH SPECIALS*/
 
-.img-bike {
-    width: 1.7vw;
-}
 
 .dish.card {
     min-height: 420px;
@@ -43,4 +48,8 @@
 
 .bag-image {
     width: 1.7vw;
+}
+
+.card-body.p-0.m-0.rounded:hover {
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
 }

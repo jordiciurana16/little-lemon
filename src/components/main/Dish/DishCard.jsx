@@ -15,7 +15,7 @@ function DishCard(props) {
   };
 
   return (
-    <div className="card">
+    <div className="dish-card">
       <div className="card-body p-0 m-0 rounded">
         <div className="row m-0 p-0">
           <div className="col-3 m-0 p-0">

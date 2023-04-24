@@ -10,3 +10,22 @@ li.footer-link:hover {
     text-decoration: underline;
     color: #edefee;
 }
+
+.social-link {
+    transition: all 0.2s ease-in-out;
+}
+
+.social-link:hover {
+    transform:scale(1.2)
+}
+
+
+a.map-link {
+    color: white;
+    text-decoration: none;
+}
+
+a.map-link:hover {
+    color: white;
+    text-decoration: underline;
+}

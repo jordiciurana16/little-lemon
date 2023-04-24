@@ -26,7 +26,7 @@ function MenuSection() {
         <h1 className="title">Menu</h1>
       </div>
       <div className="appetizers">
-        <h5 className="price m-0 p-0">Appetizers</h5>
+        <h5 className="price mt-3 p-0">Appetizers</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
           {appetizers.map((dish, index) => (
@@ -40,7 +40,7 @@ function MenuSection() {
           ))}
         </div>
       </div>
-      <div className="entrees mt-2">
+      <div className="entrees mt-3">
         <h5 className="price m-0 p-0">Entrees</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
@@ -55,7 +55,7 @@ function MenuSection() {
           ))}
         </div>
       </div>
-      <div className="desserts mt-2">
+      <div className="desserts mt-3 mb-2">
         <h5 className="price m-0 p-0">Desserts</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">

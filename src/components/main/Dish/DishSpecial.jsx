@@ -27,7 +27,7 @@ function DishSpecial(props) {
         <div className="d-flex mx-auto my-auto mb-2" onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}>
             <p className="card-text section-categories my-auto pe-2">Order a delivery</p>
-            <img className="img-bike my-auto" src={isHovered ? bagFill : bag} alt="Order a delivery" />
+            <img className="bag-image my-auto" src={isHovered ? bagFill : bag} alt="Order a delivery" />
         </div>
       </div>
     </div>
