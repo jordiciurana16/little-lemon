@@ -5,7 +5,7 @@ import '../HomePage/HomePage.css'
 
 function AboutUsSection() {
   return (
-    <div className="content-padding">
+    <section className="content-padding">
       <div className="row pb-5">
         <div className="col-md-6 pt-4 mb-5">
             <h1 className="title my-auto pt-4">About us</h1>
@@ -25,7 +25,7 @@ function AboutUsSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

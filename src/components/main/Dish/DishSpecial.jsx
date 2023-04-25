@@ -22,7 +22,7 @@ function DishSpecial(props) {
           <p className="card-text price  my-auto">${props.price}</p>
         </div>
         <div className="row">
-          <p className="card-text pt-3">{props.description}</p>
+          <p className="card-text pt-2">{props.description}</p>
         </div>
         <div className="d-flex mx-auto my-auto mb-2" onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}>

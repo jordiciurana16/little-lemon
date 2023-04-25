@@ -35,7 +35,7 @@ function TestimonialsSection() {
   };
 
   return (
-    <section className="testimonials-section content-padding text-center">
+    <section className="testimonials-section content-padding text-center pb-5">
       <div className="testimonials-images position-relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -66,13 +66,12 @@ function TestimonialsSection() {
           />
         </svg>
       </div>
-      <div className="testimonials-header mt-4 pt-3">
-        <h1 className="title pt-4">Testimonials</h1>
+      <div className="testimonials-header">
+        <h1 className="title pt-5">Testimonials</h1>
       </div>
-      <div className="mt-4 pb-5">
-        <div className="row">
+        <div className="row pt-5 pb-4">
           {testimonials.map((review) => (
-            <div key={review.name} className="col-3 mb-5">
+            <div key={review.name} className="col-3">
               <TestimonialCard
                 name={review.name}
                 image={review.image}
@@ -82,7 +81,6 @@ function TestimonialsSection() {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 }

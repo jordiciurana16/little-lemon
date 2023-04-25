@@ -10,18 +10,8 @@ function MenuSection() {
   const entrees = dishesData.dishes.filter(dish => dish.meal === "entree");
   const desserts = dishesData.dishes.filter(dish => dish.meal === "dessert");
 
-  // Create an array of arrays, where each sub-array contains up to three dish objects.
-  const rows = dishesData.dishes.reduce((acc, dish, index) => {
-    const rowIdx = Math.floor(index / cardsPerRow);
-    if (!acc[rowIdx]) {
-      acc[rowIdx] = [];
-    }
-    acc[rowIdx].push(dish);
-    return acc;
-  }, []);
-
   return (
-    <section className="menu-section content-padding">
+    <section className="menu-section content-padding mb-5">
       <div className="pt-4">
         <h1 className="title">Menu</h1>
       </div>

@@ -20,18 +20,17 @@ function SpecialsSection() {
   const handleOnlineMenu = () => {
     window.location.href ="/menu";
   };
-  
 
   return (
-    <section className="specials-section content-padding">
-      <div className="specials-header pt-5 d-flex justify-content-between">
-        <h1 className="title my-auto mt-4">This week specials!</h1>
-        <button className="button-primary my-auto mt-4" onClick={handleOnlineMenu}>Online Menu</button>
+    <section className="specials-section content-padding mb-5">
+      <div className="specials-header pt-5 mt-3 d-flex justify-content-between">
+        <h1 className="title my-auto">This week specials!</h1>
+        <button className="button-primary my-auto" onClick={handleOnlineMenu}>Online Menu</button>
       </div>
-      <div className="d-flex justify-content-center mt-4">
+      <div className="d-flex justify-content-center mt-3">
         <div className="row">
           {specialDishes.map((dish, index) => (
-            <div key={index} className="col-4 mb-5">
+            <div key={index} className="col-4">
               <DishSpecial
                 name={dish.name}
                 price={dish.price}

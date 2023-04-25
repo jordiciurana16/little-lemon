@@ -6,7 +6,7 @@ function TestimonialCard(props) {
   const stars = "🟊".repeat(rating);
 
   return (
-    <div className="testimonial card mt-4 rounded-0">
+    <div className="testimonial card rounded">
       <div className="testimonial card-body d-flex flex-column">
         <div className="star-rating">
           <span>{stars}</span>
