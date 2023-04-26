@@ -1,13 +1,17 @@
 import React from "react";
+import './Offers.css';
 
 function OffersCard({ img, name, description, price }) {
+  const cardStyle = {
+    backgroundImage: `url(${img})`
+  };
+
   return (
-    <div className="card offers-card">
-      <img src={img} className="card-img-top" alt={name} />
+    <div className="card offers-card" style={cardStyle}>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">{description}</p>
-        <p className="card-text">{price}</p>
+        <p className="offers-description paragraph">{description}</p>
+        <p className="card-text price">{price}</p>
       </div>
     </div>
   );
