@@ -1,6 +1,6 @@
 # Little-Lemon
 
-Vite project to improve web style and design interface with React.
+React project to improve web style and design interface.
 
 Restaurant web that allows users to do the conventional functionalities always prioritizing the User Experience.
 
