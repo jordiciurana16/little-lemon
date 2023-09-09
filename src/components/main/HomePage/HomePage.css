@@ -1,0 +1,70 @@
+/*HERO SECTION*/
+
+.hero-section {
+    background-color: #495E57;
+}
+
+.logo {
+    width: 17vw;
+}
+
+/*Text*/
+
+.yellow {
+    color: #F4CE14;
+}
+
+.subtitle.highlight {
+    color: #EDEFEE;
+}
+
+.paragraph.highlight {
+    width: 300px;
+    color: #EDEFEE;
+}
+
+/*Img*/
+
+.position-absolute.end-0.top-0.mt-4 {
+    margin-right: 20vw;
+    width: 23vw;
+    height: 26vw;
+    object-fit: cover;
+}
+
+/*TESTIMONIAL SECTION*/
+
+.testimonials-section {
+    background-color: #F4CE14;
+}
+
+/*ABOUT US SECTION*/
+
+.image-container {
+    position: relative;
+    padding-top: 5vw;
+    padding-left: 3vw;
+}
+
+.bottom-image {
+    position: absolute;
+    width: 17vw;
+    height: 20vw;
+    object-fit: cover;
+    z-index: 2;
+    top:150px;
+}
+
+.top-image {
+    position: absolute;
+    width: 17vw;
+    height: 20vw;
+    object-fit: cover;
+    z-index: 1;
+    left: 150px;
+    top: 60px;
+}
+
+.paragraph.about {
+    text-align: justify;
+}

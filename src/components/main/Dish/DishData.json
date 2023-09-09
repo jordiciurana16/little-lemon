@@ -1,0 +1,237 @@
+{
+  "dishes": [
+    {
+      "name": "Roasted eggs",
+      "price": 13,
+      "description": "Our eggs are roasted to perfection with a crispy exterior and a soft, creamy interior.",
+      "image": "https://i.ibb.co/30YcxQq/roasted-eggs.png",
+      "meal": "entree"
+
+    },
+    {
+      "name": "Stuffed fish",
+      "price": 16,
+      "description": "Our fresh fish stuffed with a blend of aromatic herbs and soy sauce.",
+      "image": "https://i.ibb.co/djBBpfG/suffed-fish.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Grilled Fish",
+      "price": 16,
+      "description": "Our grilled fish fillet is seasoned with a zesty blend of lemon, garlic, and herbs.",
+      "image": "https://i.ibb.co/c3H3XQW/grilled-fish.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Rice shrimp",
+      "price": 15,
+      "description": "Our rice and succulent shrimp are infused with aromatic herbs and spices.",
+      "image": "https://i.ibb.co/9sqsd1D/rice-shrimp.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Pasta carbonara",
+      "price": 14,
+      "description": "Our pasta is tossed with succulent bacon, and fresh carbonara sauce.",
+      "image": "https://i.ibb.co/MgQxWyr/pasta-carbonara.png",
+      "meal": "entree"
+
+    },
+    {
+      "name": "Fish Soup",
+      "price": 14,
+      "description": "Our tasty fish soup is infused with a warming blend of nutmeg and cinnamon.",
+      "image": "https://i.ibb.co/6NScS2m/fish-soup.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Baked veggies",
+      "price": 15,
+      "description": "Our healthy and delicious baked vegetables are steamed with aromatic herbs and vinegar.",
+      "image": "https://i.ibb.co/w0h3QFn/baked-vegetables.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Udon noodles",
+      "price": 14,
+      "description": "Our thick and chewy udon noodles are served in a savory broth with tender slices of beef and vegetables.",
+      "image": "https://i.ibb.co/ww9c4L0/udon-noodles.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Seafood soup",
+      "price": 18,
+      "description": "Our hearty seafood soup is filled with a variety of fresh seafood, including shrimp, crab, and mussels.",
+      "image": "https://i.ibb.co/tsVhhXt/seafood-soup.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Seafood nero",
+      "price": 17,
+      "description": "Our savory seafood nero is filled with a variety of fresh seafood, including mussels and octopus.",
+      "image": "https://i.ibb.co/pJWnN3V/seafood-nero.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Salmon noodles",
+      "price": 16,
+      "description": "Our savory salmon noodles are served with a rich, creamy sauce and fresh vegetables.",
+      "image": "https://i.ibb.co/WBxLXpQ/salmon-noodles.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Salmon avocado",
+      "price": 18,
+      "description": "Our succulent salmon avocado dish is served with a tangy soy sauce and fresh greens.",
+      "image": "https://i.ibb.co/5xDvqPS/salmon-avocado.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Salad potatoes",
+      "price": 13,
+      "description": "Our refreshing potato salad is tossed with crisp vegetables and a tangy dressing.",
+      "image": "https://i.ibb.co/6JtctMw/salad-potatoes.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Roasted fish",
+      "price": 17,
+      "description": "Our roasted fish is cooked to perfection and served with a zesty lemon sauce.",
+      "image": "https://i.ibb.co/6YkKV90/roasted-fish.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Pasta pesto",
+      "price": 14,
+      "description": "Our classic pasta pesto is tossed with fresh basil, garlic, and a touch of parmesan.",
+      "image": "https://i.ibb.co/GsGngpq/pasta-pesto.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Pasta parmesan",
+      "price": 14,
+      "description": "Our delicious pasta parmesan dish is smothered in a creamy sauce and topped with fresh herbs.",
+      "image": "https://i.ibb.co/T0BQVw3/pasta-parmesan.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Pasta vongole",
+      "price": 16,
+      "description": "Our pasta alle vongole is a classical dish made with succulent clams, garlic, and wine.",
+      "image": "https://i.ibb.co/9TVBPXQ/pasta-vongole.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Grilled salmon",
+      "price": 18,
+      "description": "Our grilled salmon fillet is seasoned to perfection and served with a side of fresh vegetables.",
+      "image": "https://i.ibb.co/0yq5QvM/grilled-salmon.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Fried sticks",
+      "price": 7,
+      "description": "Our crispy fried sticks are the perfect snack to accompany your dish.",
+      "image": "https://i.ibb.co/JKnj6XR/fried-sticks.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Chicken noodles",
+      "price": 14,
+      "description": "Our savory chicken noodle is made with tender chunks of chicken and vegetables.",
+      "image": "https://i.ibb.co/c8QwYvP/chicken-noodles.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Chicken rice",
+      "price": 15,
+      "description": "Our fragrant chicken rice is cooked with a blend of aromatic spices and tender chicken.",
+      "image": "https://i.ibb.co/8MtDHV3/chicken-rice.png",
+      "meal": "entree"
+    },
+    {
+      "name": "Seafood mussels",
+      "price": 7,
+      "description": "Our hearty seafood mussels with a blend of lemon and soy sauce.",
+      "image": "https://i.ibb.co/vQ4f2q8/seafood-mussel.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Bagel sandwich",
+      "price": 7,
+      "description": "Our bagel sandwich is made with a freshly baked bagel that has a crispy exterior and a chewy interior.",
+      "image": "https://i.ibb.co/HGbcMhD/bagel-sandwiches.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Fried cutles",
+      "price": 6,
+      "description": "Our fried cutlets are made from tender juicy cuts of meat fried until golden brown.",
+      "image": "https://i.ibb.co/1RgM65m/fried-cutles.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "French fries",
+      "price": 5,
+      "description": "Our french fries are made from high-quality potatoes fried to achieve a crispy exterior and a fluffy interior.",
+      "image": "https://i.ibb.co/82xGPjJ/french-fries.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Country potatoes",
+      "price": 5,
+      "description": "Our country potatoes are made with hearty chunks of potato that are seasoned with a blend of savory herbs and spices.",
+      "image": "https://i.ibb.co/WPyXJtx/country-potatoes.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Salmon toast",
+      "price": 7,
+      "description": "Our salmon toast features a slice of bread lightly toasted and topped with salmon portion.",
+      "image": "https://i.ibb.co/7VKbCxM/salmon-toast.png",
+      "meal": "appetizer"
+    },
+    {
+      "name": "Berry waffle",
+      "price": 5,
+      "description": "A deliciously crisp waffle served with a generous portion of juicy mixed berries.",
+      "image": "https://i.ibb.co/5KhY6q6/berry-waffle.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Chocolate cake",
+      "price": 6,
+      "description": "Indulge in our decadent chocolate cake made with the finest cocoa powder.",
+      "image": "https://i.ibb.co/PC8BqJV/chocolate-cake.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Banana waffle",
+      "price": 5,
+      "description": "A classic waffle with sliced bananas, drizzled with honey and syrup.",
+      "image": "https://i.ibb.co/74HTrV4/banana-waffle.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Vanilla ice cream",
+      "price": 5,
+      "description": "Cool and creamy, our vanilla ice cream is made with the finest ingredients.",
+      "image": "https://i.ibb.co/7Q6xgyM/vanilla-ice-cream.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Baked waffle",
+      "price": 5,
+      "description": "A warm, comforting waffle served fresh from the oven. Topped with syrup and fresh fruit.",
+      "image": "https://i.ibb.co/LP2XDYw/baked-waffle.png",
+      "meal": "dessert"
+    },
+    {
+      "name": "Tiramisu cake",
+      "price": 6,
+      "description": "Our tiramisu cake is made with layers of fluffy mascarpone cream and espresso-soaked ladyfingers.",
+      "image": "https://i.ibb.co/pRDcvLS/tiramisu-cake.png",
+      "meal": "dessert"
+    }
+  ]
+}

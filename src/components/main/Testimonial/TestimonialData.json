@@ -1,0 +1,74 @@
+{
+    "review1": {
+      "name": "Jane",
+      "image": "https://i.ibb.co/FYV7pdn/jane.jpg",
+      "review": "Great food!",
+      "rating": 3
+    },
+    "review2": {
+      "name": "Mark",
+      "image": "https://i.ibb.co/QrrFQKg/mark.jpg",
+      "review": "Amazing meal!",
+      "rating": 5
+    },
+    "review3": {
+      "name": "Emily",
+      "image": "https://i.ibb.co/SJv44hZ/emiliy.jpg",
+      "review": "Good service!",
+      "rating": 4
+    },
+    "review5": {
+        "name": "David",
+        "image": "https://i.ibb.co/pvBnt3N/david.jpg",
+        "review": "Nice presentation.",
+        "rating": 3
+    },
+    "review6": {
+      "name": "Peter",
+      "image": "https://i.ibb.co/Lg9Xg02/peter.jpg",
+      "review": "Excellent prices!",
+      "rating": 5
+    },
+    "review7": {
+        "name": "Sam",
+        "image": "https://i.ibb.co/SV0rxwQ/sam.jpg",
+        "review": "Incredibly fast!",
+        "rating": 5
+      },
+      "review8": {
+        "name": "Chelsea",
+        "image": "https://i.ibb.co/FxhssK2/chelsea.jpg",
+        "review": "Nice atmosphere.",
+        "rating": 4
+      },
+      "review9": {
+        "name": "Fiona",
+        "image": "https://i.ibb.co/dMW7yWm/fiona.jpg",
+        "review": "Cheap prices.",
+        "rating": 3
+      },
+      "review10": {
+        "name": "Alex",
+        "image": "https://i.ibb.co/Npc2pFX/alex.jpg",
+        "review": "Great service!",
+        "rating": 4
+      },
+      "review12": {
+        "name": "Harry",
+        "image": "https://i.ibb.co/1q6NfzJ/harry.jpg",
+        "review": "I recommend it!",
+        "rating": 4
+      },
+      "review13": {
+        "name": "Lily",
+        "image": "https://i.ibb.co/WpsX1yQ/lily.png",
+        "review": "Awesome dishes!",
+        "rating": 5
+      },
+      "review16": {
+        "name": "Ethan",
+        "image": "https://i.ibb.co/M5DtBry/ethan.jpg",
+        "review": "Tasty options!",
+        "rating": 3
+      }
+}

@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "img": "https://via.placeholder.com/200",
+      "name": "Small Menu",
+      "description": "Includes an entree, a dessert and a drink.",
+      "price": "$25"
+    },
+    {
+      "id": 2,
+      "img": "https://via.placeholder.com/200",
+      "name": "Menu",
+      "description": "Includes an appetizer, an entree, a dessert and a drink.",
+      "price": "$30"
+    },
+    {
+      "id": 3,
+      "img": "https://via.placeholder.com/200",
+      "name": "Big Menu",
+      "description": "Includes an appetizer, two entrees, a dessert and a drink.",
+      "price": "$40"
+    }
+  ]

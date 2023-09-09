@@ -1,0 +1,56 @@
+/* images from https://yellowimages.com/images-360/products/penne-pasta-yi36021908 */
+
+.card-text.price {
+    color: #EE9972;
+}
+
+.d-flex.mx-auto.my-auto.mb-2:hover p{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.bag-image{
+    cursor: pointer;
+}
+/*DISH SPECIALS*/
+
+
+.dish.card {
+    min-height: 420px;
+    max-height: 420px;
+}
+
+.dish.card-body {
+    background-color: #EDEFEE;
+}
+.card-img-top {
+    width: 100%;
+    height: 175px;
+    object-fit:contain;
+    background-color: #edefee;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.card-text.section-categories.my-auto.pe-2 {
+    font-size: medium;
+}
+
+/*DISH CARD*/
+
+.card-img-left {
+    width: 10vmin;
+    border-right: 1px solid #d2d2d2;
+}
+
+.card-body.p-0.m-0.rounded {
+    background-color: #EDEFEE;
+}
+
+.bag-image {
+    width: 1.7vw;
+}
+
+.card-body.p-0.m-0.rounded:hover {
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+    cursor: default;
+}
