@@ -11,10 +11,10 @@ const Footer = () => {
           <div>
             <h5 className="text-yellow fw-bold mb-3">Navigation</h5>
             <ul className="list-unstyled">
-              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/">Home</Link></li>
-              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/menu">Menu</Link></li>
-              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/reservation">Reservation</Link></li>
-              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/order">Order Online</Link></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon">Home</Link></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon/menu">Menu</Link></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon/reservation">Reservation</Link></li>
+              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon/order">Order Online</Link></li>
             </ul>
           </div>
           <div>

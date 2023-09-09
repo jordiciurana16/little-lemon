@@ -18,7 +18,7 @@ function SpecialsSection() {
   }, []);
 
   const handleOnlineMenu = () => {
-    window.location.href ="/menu";
+    window.location.href ="/little-lemon/menu";
   };
 
   return (

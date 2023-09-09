@@ -2,7 +2,7 @@ import React from "react";
 import food from "../../../assets/img/restaurantfood.jpg"
 
 const handleReserveTable = () => {
-  window.location.href ="/reservation";
+  window.location.href ="/little-lemon/reservation";
 };
 
 
