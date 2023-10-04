@@ -17,15 +17,11 @@ function SpecialsSection() {
     setSpecialDishes(selectedDishes);
   }, []);
 
-  const handleOnlineMenu = () => {
-    window.location.href ="/little-lemon/menu";
-  };
-
   return (
     <section className="specials-section content-padding mb-5">
       <div className="specials-header pt-5 mt-3 d-flex justify-content-between">
         <h1 className="title my-auto">This week specials!</h1>
-        <button className="button-primary my-auto" onClick={handleOnlineMenu}>Online Menu</button>
+        <button className="button-primary my-auto">Online Menu</button>
       </div>
       <div className="d-flex justify-content-center mt-3">
         <div className="row">

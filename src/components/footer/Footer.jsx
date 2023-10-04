@@ -14,7 +14,6 @@ const Footer = () => {
               <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon">Home</Link></li>
               <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon/menu">Menu</Link></li>
               <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon/reservation">Reservation</Link></li>
-              <li className='mb-2 footer-link'><Link className="text-white text-decoration-none" to="/little-lemon/order">Order Online</Link></li>
             </ul>
           </div>
           <div>

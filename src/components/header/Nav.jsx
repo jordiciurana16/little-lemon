@@ -8,7 +8,6 @@ function Nav() {
         <li><Link className="section-categories text-dark text-decoration-none px-3" to="/little-lemon">Home</Link></li>
         <li><Link className="section-categories text-dark text-decoration-none px-3" to="/little-lemon/menu">Menu</Link></li>
         <li><Link className="section-categories text-dark text-decoration-none px-3" to="/little-lemon/reservation">Reservation</Link></li>
-        <li><Link className="section-categories text-dark text-decoration-none text-nowrap" to="/little-lemon/order">Order online</Link></li>
       </ul>
     </nav>
   );
