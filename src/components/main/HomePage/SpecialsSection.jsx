@@ -26,7 +26,7 @@ function SpecialsSection() {
       <div className="d-flex justify-content-center mt-3">
         <div className="row">
           {specialDishes.map((dish, index) => (
-            <div key={index} className="col-4">
+            <div key={index} className="col-12 col-md-4">
               <DishSpecial
                 name={dish.name}
                 price={dish.price}

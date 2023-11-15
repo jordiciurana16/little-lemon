@@ -19,7 +19,7 @@ function AboutUsSection() {
 
         </div>
         <div className="col-md-6 mb-5">
-          <div className="image-container">
+          <div className="image-container d-none d-md-block">
             <img src={matop} alt="Placeholder 2" className="bottom-image rounded" />
             <img src={mabottom} alt="Placeholder 1" className="top-image rounded" />
           </div>

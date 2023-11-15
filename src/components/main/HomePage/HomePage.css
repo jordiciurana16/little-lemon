@@ -68,3 +68,12 @@
 .paragraph.about {
     text-align: justify;
 }
+
+/* Hide images when screen width is more than 1300px */
+@media screen and (min-width: 1300px) {
+    .top-image,
+    .bottom-image,
+    .position-absolute.end-0.top-0.mt-4 {
+        display: none;
+    }
+}

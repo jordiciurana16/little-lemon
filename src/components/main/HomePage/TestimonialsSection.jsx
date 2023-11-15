@@ -18,69 +18,23 @@ function TestimonialsSection() {
     setTestimonials(testimonialArray.slice(startIndex, endIndex));
   }, [currentPage, testimonialArray]);
 
-  const handlePrevPage = () => {
-    if (currentPage === 1) {
-      setCurrentPage(totalPages);
-    } else {
-      setCurrentPage(currentPage - 1);
-    }
-  };
-
-  const handleNextPage = () => {
-    if (currentPage === totalPages) {
-      setCurrentPage(1);
-    } else {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
   return (
     <section className="testimonials-section content-padding text-center pb-5">
-      <div className="testimonials-images position-relative">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          className="bi bi-chevron-left left-image"
-          viewBox="0 0 16 16"
-          onClick={handlePrevPage}
-        >
-          <path
-            fillRule="evenodd"
-            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-          />
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          className="bi bi-chevron-right right-image"
-          viewBox="0 0 16 16"
-          onClick={handleNextPage}
-        >
-          <path
-            fillRule="evenodd"
-            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-          />
-        </svg>
-      </div>
       <div className="testimonials-header">
         <h1 className="title pt-5">Testimonials</h1>
       </div>
-        <div className="row pt-5 pb-4">
-          {testimonials.map((review) => (
-            <div key={review.name} className="col-3">
-              <TestimonialCard
-                name={review.name}
-                image={review.image}
-                review={review.review}
-                rating={review.rating}
-              />
-            </div>
-          ))}
-        </div>
+      <div className="row pt-5 pb-4">
+        {testimonials.map((review) => (
+          <div key={review.name} className="col-12 col-md-6 col-lg-3">
+            <TestimonialCard
+              name={review.name}
+              image={review.image}
+              review={review.review}
+              rating={review.rating}
+            />
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

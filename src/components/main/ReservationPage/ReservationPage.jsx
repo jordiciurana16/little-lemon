@@ -8,7 +8,7 @@ function ReservationPage() {
       <section className="content-padding reservation-form pt-4 pb-4">
         <div className="container">
           <div className="row">
-            <div className="col-5">
+            <div className="col-lg-5 col-md-6 col-sm-12"> {/* Adjust column widths based on screen size */}
               <h2 className="mb-3 title yellow">Book a Table</h2>
               <form>
                 <div className="pb-3">
@@ -25,7 +25,7 @@ function ReservationPage() {
                 </div>
               </form>
             </div>
-            <div className="col-7 d-flex align-items-center ps-5 justify-content-center  ">
+            <div className="col-lg-7 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
               <div className="schedule rounded border pt-3 pb-1 px-3">
                 <p className="text-center">Do you prefer to book a table by phone?</p>
                 <p className="text-center">Call 945 567 332 for direct contact.</p>

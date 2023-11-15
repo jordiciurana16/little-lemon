@@ -8,7 +8,8 @@ function DishFilter() {
   }
 
   return (
-    <section className="dish-filter pt-4 pb-4">
+    <section className="dish-filter pt-4 pb-4 d-none d-md-block">
+      {/* The 'd-none d-md-block' class will hide the section on small devices */}
       <div className="d-flex content-padding justify-content-between">
         <form className="row align-items-center">
           <div className="col-auto">
@@ -50,7 +51,9 @@ function DishFilter() {
           </div>
         </form>
         <div className="col-auto">
-        <button className="button-primary" type="submit">Search</button>
+          <button className="button-primary" type="submit">
+            Search
+          </button>
         </div>
       </div>
     </section>

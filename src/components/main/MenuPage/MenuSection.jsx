@@ -19,46 +19,46 @@ function MenuSection() {
         <h5 className="price mt-3 p-0">Appetizers</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
-          {appetizers.map((dish, index) => (
-            <div key={index} className={`col-${12 / cardsPerRow} mb-2`}>
-              <DishCard
-                name={dish.name}
-                price={dish.price}
-                image={dish.image}
-              />
-            </div>
-          ))}
-        </div>
+        {dishesData.dishes.map((dish, index) => (
+          <div key={index} className="col-lg-4 col-12 mb-2"> {/* Adjust column widths based on screen size */}
+            <DishCard
+              name={dish.name}
+              price={dish.price}
+              image={dish.image}
+            />
+          </div>
+        ))}
+      </div>
       </div>
       <div className="entrees mt-3">
         <h5 className="price m-0 p-0">Entrees</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
-          {entrees.map((dish, index) => (
-            <div key={index} className={`col-${12 / cardsPerRow} mb-2`}>
-              <DishCard
-                name={dish.name}
-                price={dish.price}
-                image={dish.image}
-              />
-            </div>
-          ))}
-        </div>
+        {dishesData.dishes.map((dish, index) => (
+          <div key={index} className="col-lg-4 col-12 mb-2"> {/* Adjust column widths based on screen size */}
+            <DishCard
+              name={dish.name}
+              price={dish.price}
+              image={dish.image}
+            />
+          </div>
+        ))}
+      </div>
       </div>
       <div className="desserts mt-3 mb-2">
         <h5 className="price m-0 p-0">Desserts</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
-          {desserts.map((dish, index) => (
-            <div key={index} className={`col-${12 / cardsPerRow} mb-2`}>
-              <DishCard
-                name={dish.name}
-                price={dish.price}
-                image={dish.image}
-              />
-            </div>
-          ))}
-        </div>
+        {dishesData.dishes.map((dish, index) => (
+          <div key={index} className="col-lg-4 col-12 mb-2"> {/* Adjust column widths based on screen size */}
+            <DishCard
+              name={dish.name}
+              price={dish.price}
+              image={dish.image}
+            />
+          </div>
+        ))}
+      </div>
       </div>
     </section>
   );
