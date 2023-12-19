@@ -19,7 +19,7 @@ function MenuSection() {
         <h5 className="price mt-3 p-0">Appetizers</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
-        {dishesData.dishes.map((dish, index) => (
+        {appetizers.map((dish, index) => (
           <div key={index} className="col-lg-4 col-12 mb-2"> {/* Adjust column widths based on screen size */}
             <DishCard
               name={dish.name}
@@ -34,7 +34,7 @@ function MenuSection() {
         <h5 className="price m-0 p-0">Entrees</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
-        {dishesData.dishes.map((dish, index) => (
+          {entrees.map((dish, index) => (
           <div key={index} className="col-lg-4 col-12 mb-2"> {/* Adjust column widths based on screen size */}
             <DishCard
               name={dish.name}
@@ -49,7 +49,7 @@ function MenuSection() {
         <h5 className="price m-0 p-0">Desserts</h5>
         <hr className="price mt-2 mb-2"/>
         <div className="row">
-        {dishesData.dishes.map((dish, index) => (
+        {desserts.map((dish, index) => (
           <div key={index} className="col-lg-4 col-12 mb-2"> {/* Adjust column widths based on screen size */}
             <DishCard
               name={dish.name}
